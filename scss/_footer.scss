@@ -1,0 +1,21 @@
+footer{
+background-color: black;
+}  
+#foot{
+    ul{
+      li{
+        a{
+           color: #8DC146;
+             &:hover{
+               color: aliceblue;
+          }       
+        }   
+      }
+    }
+} 
+.iconoWhuas{
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 5%;
+  }   

@@ -1,0 +1,25 @@
+#navbarNav{
+  ul{
+    li{
+      a{
+        color: #8DC146;
+        &:hover{
+           color: aliceblue;
+        }  
+    }    
+  }
+}   
+}
+#tec{
+   color:#8DC146 ;
+     &:hover{
+       color: aliceblue;
+  }  
+} 
+.navbar-toggler{
+background-color: #8DC146;
+}
+#nav{
+background-color: black;
+height: auto;
+}   

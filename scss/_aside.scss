@@ -1,0 +1,13 @@
+aside{
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,157,233,1) 100%);   
+}
+button{
+     border-radius: 30px;
+     background-color: black;
+     a{
+        color:#8DC146;
+            &:hover{
+                    color: aliceblue;
+            }  
+     }
+}
