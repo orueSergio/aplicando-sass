@@ -1,9 +1,24 @@
-* {
-  margin: 0;
-  padding: o; }
+#navbarNav ul li a {
+  color: #8DC146; }
+  #navbarNav ul li a:hover {
+    color: aliceblue; }
 
-body {
+#tec {
+  color: #8DC146; }
+  #tec:hover {
+    color: aliceblue; }
+
+.navbar-toggler {
+  background-color: #8DC146; }
+
+#nav {
+  background-color: black;
+  height: auto; }
+
+.dropdown-menu {
   background-color: black; }
+  .dropdown-menu li a:hover {
+    background-color: black; }
 
 #imgApp {
   height: 150px;
@@ -35,22 +50,16 @@ body {
 main {
   background: radial-gradient(circle, #eeaeca 0%, #949de9 100%); }
 
-#navbarNav ul li a {
-  color: #8DC146; }
-  #navbarNav ul li a:hover {
-    color: aliceblue; }
+aside {
+  background: radial-gradient(circle, #eeaeca 0%, #949de9 100%); }
 
-#tec {
-  color: #8DC146; }
-  #tec:hover {
-    color: aliceblue; }
-
-.navbar-toggler {
-  background-color: #8DC146; }
-
-#nav {
-  background-color: black;
-  height: auto; }
+button {
+  border-radius: 30px;
+  background-color: black; }
+  button a {
+    color: #8DC146; }
+    button a:hover {
+      color: aliceblue; }
 
 footer {
   background-color: black; }
@@ -66,13 +75,9 @@ footer {
   right: 20px;
   width: 5%; }
 
-aside {
-  background: radial-gradient(circle, #eeaeca 0%, #949de9 100%); }
+* {
+  margin: 0;
+  padding: 0; }
 
-button {
-  border-radius: 30px;
+body {
   background-color: black; }
-  button a {
-    color: #8DC146; }
-    button a:hover {
-      color: aliceblue; }

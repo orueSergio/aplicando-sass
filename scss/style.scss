@@ -1,11 +1,13 @@
+@import './variables';
+@import './mixin';
+@import './header';
+@import './main';
+@import './aside';
+@import './footer';
+
 *{
-margin:0;  
-padding:o; 
+@include reset;
 }
 body{
-background-color: black       
+background-color: black;     
 }
-@import './main';
-@import './header';
-@import './footer';
-@import './aside';

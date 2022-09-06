@@ -1,15 +1,10 @@
 footer{
-background-color: black;
+background-color: map-get($colores ,"negro");
 }  
 #foot{
     ul{
       li{
-        a{
-           color: #8DC146;
-             &:hover{
-               color: aliceblue;
-          }       
-        }   
+        @include listaHeader;  
       }
     }
 } 

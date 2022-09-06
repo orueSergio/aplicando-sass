@@ -1,25 +1,30 @@
 #navbarNav{
   ul{
     li{
-      a{
-        color: #8DC146;
-        &:hover{
-           color: aliceblue;
-        }  
-    }    
+      @include listaHeader;
   }
 }   
 }
 #tec{
-   color:#8DC146 ;
+   color:$colorHeader;
      &:hover{
-       color: aliceblue;
+      color: map-get($colores ,"Alice azul");
   }  
 } 
 .navbar-toggler{
-background-color: #8DC146;
+background-color:$colorHeader;
 }
 #nav{
-background-color: black;
+background-color: map-get($colores ,"negro");
 height: auto;
-}   
+} 
+.dropdown-menu{
+  background-color: map-get($colores ,"negro");
+              li{
+                 a{
+                  &:hover{
+                    background-color: black;
+                 } 
+                }
+              }           
+}
