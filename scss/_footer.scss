@@ -13,4 +13,11 @@ background-color: map-get($colores ,"negro");
   bottom: 20px;
   right: 20px;
   width: 5%;
-  }   
+  }  
+@media  screen and (max-width: 500px) {
+.iconoWhuas  {
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 10%;
+} }
